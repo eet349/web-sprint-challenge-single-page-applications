@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 
@@ -9,6 +9,7 @@ import OrderSuccess from '../OrderSuccess/OrderSuccess';
 
 const App = () => {
 	const history = useHistory();
+	const [order, setOrder] = useState({});
 
 	return (
 		<div className='App'>
@@ -28,10 +29,10 @@ const App = () => {
 					<Home history={history} />
 				</Route>
 				<Route path='/pizza'>
-					<Form history={history} />
+					<Form history={history} order={order} setOrder={setOrder} />
 				</Route>
 				<Route path='/success'>
-					<OrderSuccess />
+					<OrderSuccess order={order} />
 				</Route>
 			</Switch>
 		</div>

@@ -6,7 +6,7 @@ const FromHeader = ({ header, subHeader, error }) => {
 		<div className='form-header'>
 			<h2>{header}</h2>
 			<p>{subHeader}</p>
-			{/* <h4 className='error'>{error}</h4> */}
+			<h4 className='error'>{error}</h4>
 		</div>
 	);
 };
