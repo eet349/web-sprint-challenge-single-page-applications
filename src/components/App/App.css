@@ -1,0 +1,35 @@
+.App {
+	width: 100vw;
+	/* text-align: center; */
+}
+/* ============== General use styles ============== */
+.flex {
+	display: flex;
+}
+.center-content {
+	justify-content: center;
+	align-items: center;
+}
+/* ============== Header styles ============== */
+.header {
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo {
+	margin-left: 5%;
+}
+
+.header-nav {
+	margin-right: 5%;
+	width: 9%;
+	justify-content: space-between;
+}
+.header-nav-link {
+	text-decoration: none;
+	color: #000;
+	background-color: darkgray;
+	height: 50px;
+	width: 48%;
+	min-width: 55px;
+	margin-left: 5%;
+}

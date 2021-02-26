@@ -1,0 +1,15 @@
+/* ============== Hero styles ============== */
+.hero-section {
+	background: url('../../Assets/Pizza.jpg');
+	height: 100vh;
+	flex-direction: column;
+}
+
+.hero-button {
+	width: 8%;
+	height: 5%;
+	border: none;
+	border-radius: 5px;
+	font-size: larger;
+	min-width: 100px;
+}
