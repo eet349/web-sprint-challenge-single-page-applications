@@ -1,6 +1,7 @@
 .App {
 	width: 100vw;
-	/* text-align: center; */
+	background-color: rgb(26, 28, 29);
+	color: rgb(173, 166, 156);
 }
 /* ============== General use styles ============== */
 .flex {

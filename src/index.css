@@ -8,9 +8,33 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	color: #e8e6e3;
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
+}
+html,
+body,
+input,
+textarea,
+select,
+button {
+	background-color: #181a1b;
+}
+
+::-webkit-scrollbar {
+	background-color: #202324;
+	color: #aba499;
+}
+::-webkit-scrollbar-corner {
+	background-color: #181a1b;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #454a4d;
+}
+::selection {
+	background-color: #004daa !important;
+	color: #e8e6e3 !important;
 }

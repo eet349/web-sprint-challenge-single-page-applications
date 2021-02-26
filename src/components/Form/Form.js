@@ -140,7 +140,7 @@ const Form = ({ history, setOrder, order }) => {
 				<input
 					type='text'
 					name='username'
-					className='text-input'
+					className='text-input name'
 					placeholder='Name'
 					onChange={onChange}
 					value={formState.username}

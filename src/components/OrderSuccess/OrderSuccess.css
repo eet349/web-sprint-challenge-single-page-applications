@@ -1,0 +1,10 @@
+.order-success-container {
+	width: 500px;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 5%;
+}
+.order-success-h1 {
+	font-size: 2.8rem;
+}

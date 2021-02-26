@@ -13,6 +13,7 @@ describe('Form End to End tests', () => {
 	const checkboxSelect4 = () => cy.get('input[name=pineapple]');
 	const specialInsInput = () => cy.get('input[name=specialIns]');
 	const submitButton = () => cy.get('button');
+
 	it('Sanity check', () => {
 		expect(true).to.equal(true);
 	});
@@ -28,6 +29,7 @@ describe('Form End to End tests', () => {
 			.type(testText)
 			.should('have.value', testText);
 	});
+
 	it('Testing checkbox multi-select', () => {
 		pizzaButton().should('exist');
 		pizzaButton().click();
@@ -36,6 +38,7 @@ describe('Form End to End tests', () => {
 		checkboxSelect3().should('not.be.checked').click().should('be.checked');
 		checkboxSelect4().should('not.be.checked').click().should('be.checked');
 	});
+
 	it('Testing for successful submission of the form.', () => {
 		pizzaButton().should('exist');
 		pizzaButton().click();
